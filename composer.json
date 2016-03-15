@@ -1,0 +1,32 @@
+{
+  "name": "razrabotchik/DXF_Parser",
+  "description": "Module for DXF files parsing.",
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "dxf",
+    "cad",
+    "parser",
+    "zf2"
+  ],
+  "homepage": "https://github.com/razrabotchik/DXF_Parser",
+  "authors": [
+    {
+      "name": "Alexey Golubovsky",
+      "email": "itinua@gmail.com",
+      "homepage": "http://razrabotchik.com/"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "zendframework/zendframework": "2.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "ZendDbMigrations": "src/"
+    },
+    "classmap": [
+      "./Module.php"
+    ]
+  }
+}

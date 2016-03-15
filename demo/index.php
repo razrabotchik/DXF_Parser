@@ -2,7 +2,7 @@
 
 header('Content-type: text/html; charset=Windows-1251');
 
-require_once '../lib/DXFParser.php';
+require_once '../src/DXF_Parser/Library/DXFParser.php';
 
 $dxf = new DXFParser();
 
